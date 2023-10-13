@@ -1,11 +1,15 @@
 .center {
     margin:auto;
     width: 50%;
-    border: 3px solid green;
+    border: 5px solid darkgreen;
     padding: 10px;
     text-align: center;
+    color: darkgreen;
 }
 .sconePhotos {
     width: 60%;
     height: 60%;
+}
+body {
+    background-color:black;
 }
