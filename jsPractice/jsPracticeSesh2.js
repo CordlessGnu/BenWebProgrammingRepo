@@ -34,3 +34,18 @@ var today = new Date();
   } 
   } 
 console.log("Current Time : "+hour + prepand + " : " + minute + " : " + second);
+
+
+var thisYear = today.getFullYear();
+var thisMonth = today.getMonth();
+var thisDay = today.getDay();
+if(thisDay < 10){
+    thisDay = "0" + thisDay;
+}
+
+if(thisMonth < 10){
+    thisMonth = "0" + thisMonth;
+}
+
+
+console.log( thisDay+ "/" + thisMonth+ "/"+ thisYear);
